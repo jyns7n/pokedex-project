@@ -8,13 +8,6 @@ const HomePage = () => {
 
   return (
     <div className='w-[90%] m-[auto] max-w-[1100px]'>
-      <div className='flex justify-center'>
-        <img
-          src='/public/assets/site-logo.png'
-          alt='logo'
-          className='max-h-[80px] mt-[20px]'
-        />
-      </div>
       <SearchForm />
       {fetchPokemon.loading && (
         <div className='h-[600px] flex justify-center items-center'>
