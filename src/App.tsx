@@ -15,7 +15,7 @@ function App() {
   ]);
 
   return (
-    <div className="bg-[url('/src/assets/dex-bg.png')] min-h-[100vh] bg-fixed bg-cover">
+    <div className="bg-[url('/public/assets/dex-bg.png')] min-h-[100vh] bg-fixed bg-cover">
       <RouterProvider router={router} />
     </div>
   );

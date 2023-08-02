@@ -11,11 +11,11 @@ interface PokemonCardProps {
 const PokemonCard = ({ image, name, id, types }: PokemonCardProps) => {
   return (
     <div className='max-w-[275px] w-full m-[auto] rounded-[20px] overflow-hidden shadow dark:bg-gray-800 dark:border-gray-700 p-[16px] bg-slate-600 my-[20px]'>
-      <div className="bg-[url('/src/assets/poke-card-bg.png')] bg-center aspect-square w-full bg-cover rounded-[20px]">
+      <div className="bg-[url('/public/assets/poke-card-bg.png')] bg-center aspect-square w-full bg-cover rounded-[20px]">
         <Link
           to={`/detail/${name}`}
           href='#'
-          className="bg-[url('/src/assets/poke-card-bg.png')]"
+          className="bg-[url('/public/assets/poke-card-bg.png')]"
         >
           <img
             className='rounded-t-lg h-[218px] p-[40px] w-full '

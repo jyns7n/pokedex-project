@@ -50,7 +50,7 @@ const DetailPage = () => {
     <div className='w-[90%] m-[auto] max-w-[1100px]'>
       <div className='flex justify-center'>
         <img
-          src='/src/assets/site-logo.png'
+          src='/public/assets/site-logo.png'
           alt='logo'
           className='max-h-[80px] mt-[20px]'
         />
@@ -68,7 +68,7 @@ const DetailPage = () => {
             <div className='bg-center aspect-square w-full bg-cover rounded-[20px] relative'>
               <img
                 className='absolute h-[auto] max-h-[400px] w-full aspect-square translate-x-[-50%] translate-y-[-50%] top-[50%] left-[50%]'
-                src='/src/assets/pokemon_bg.png'
+                src='/public/assets/pokemon_bg.png'
                 alt=''
               />
               <img
